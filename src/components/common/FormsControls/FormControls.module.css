@@ -1,0 +1,21 @@
+.error input,
+.error textarea{
+    border: 1px solid red;
+}
+
+.errorTextTextArea{
+    content: '';
+    position: absolute;
+    color: red;
+}
+
+
+
+.formControlInput {
+    display: flex;
+    column-gap: 10px;
+}
+
+.errorTextInput {
+    color: red;
+}

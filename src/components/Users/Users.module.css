@@ -1,0 +1,119 @@
+.users {
+    padding: 30px 150px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    margin: 0 auto;
+    user-select: none;
+    transition-duration: 5s;
+}
+
+.title {
+    padding: 15px 25px;
+    background-color: #fff; 
+}
+
+.titleText{
+    color: #646464;
+    font-weight: 500;
+}
+
+.user {
+    display: flex;
+    column-gap: 100px;
+    align-items: center;
+    background-color: #fff;
+    padding-right: 50px;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.avatar {
+    width: 100px;
+    height: 100px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+    padding: 10px 0;
+}
+
+.userInfo {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1px;
+}
+
+.name {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.location {
+    font-weight: 300;
+}
+
+
+.status {
+    max-width: 300px;
+}
+
+.button  {
+    display: block;
+    width: 100px;
+    height: 50px;
+    background-color: #34b7f1;
+    color: #fff;
+    border-radius: 10px;
+}
+
+.button:disabled {
+    background-color: #646464;
+}
+
+.unfollow {
+    background-color: #c43737;
+}
+
+.pagination { 
+    display: flex;
+    column-gap: 5px;
+    font-size: 18px;  
+    padding-top: 10px;
+    justify-content: center;
+    color: #FFF;
+    cursor: pointer;
+    align-items: center;
+}
+.numbersPages {
+    display: flex;
+}
+.unselectedPage {
+    background: #0078af;
+    padding: 15px 8px;
+}
+.unselectedPage:hover {
+    background: #e93536;
+}
+
+.selectedPage {
+    font-weight: 700;
+    background: #e93536;
+    padding: 15px 8px;
+    }
+
+.selectedPage:hover {
+    background: #0078af;
+}
+
+.backNextPage {
+    display: block;
+    padding: 15px 8px;
+    background: #0078af;
+}
+
+.backNextPage:hover {
+    background: #e93536;
+}

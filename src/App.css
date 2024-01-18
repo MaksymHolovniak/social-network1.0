@@ -1,0 +1,12 @@
+@import url('./reset.css');
+
+.app-wrapper {
+    display: flex;
+    flex-direction: column;
+    background-color: #DDEBF6;
+}
+
+.main {
+    display: flex;
+    min-height: 94vh;
+}

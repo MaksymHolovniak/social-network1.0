@@ -1,0 +1,55 @@
+.login {
+    margin: 150px auto;
+}
+
+
+.loginTitle {
+    text-align: center;
+    padding-bottom: 10px;
+    font-size: 18px;
+    font-weight: 700;
+    user-select: none;
+}
+
+.formLogin {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    background-color: rgba(255, 255, 255, 0.678);
+    padding: 100px 100px;
+    border-radius: 30px;
+}
+
+.formSummaryError {
+    color: red;
+}
+
+.formLoginInput {
+    border-bottom: 1px solid #00000021;
+    width: 300px;
+    font-size: 20px;
+}
+
+.loginButton {
+    display: block;
+
+    padding: 15px 20px;
+    background-color: #FF5733;
+    border-radius: 30px;
+    margin-top: 20px;
+
+    color: #fff;
+    font-size: 18px;
+    user-select: none;
+}
+
+.LoginCheckBox {
+    user-select: none;
+}
+
+.CheckBoxText {
+    padding-left: 10px;
+    color: #00000083;
+    user-select: none;
+}
+ 

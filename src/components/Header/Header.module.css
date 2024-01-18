@@ -1,0 +1,41 @@
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #000000;
+    padding: 5px 30px;
+    user-select: none;
+    align-items: center;
+}
+
+.img {
+    padding-left: 39px;
+}
+.header img {
+    width: 100px;
+}
+
+.logout {
+    display: flex;
+    column-gap: 25px;
+}
+
+.headerUserName {
+    display: block;
+    color: white;
+    padding: 8px 15px;
+    border: 1px solid white;
+}
+
+.loginBlock {
+    display: block;
+    background-color: #FF5733;
+    padding: 8px 15px;
+    border-radius: 10px;
+    color: #FFF;
+}
+
+.loginBlock a{
+    color: white;
+}
+
